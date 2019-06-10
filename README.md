@@ -29,7 +29,7 @@ I conducted an ablation study in order to identify the individual contributions 
  
  4. **DDPG with PSN and PER**: 276 episodes
 
-### Introduction
+### Environment
 
 For this project, the work will be with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
 
@@ -41,7 +41,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 The Benchmark Mean Reward is 30.
 
-### Solving the Environment
+### Solving criteria
 
 This project uses a Unity environment that contains a single agent. The task is episodic, and in order to solve the environment,  the agent must get an average score of +30 over 100 consecutive episodes.
 ```python
