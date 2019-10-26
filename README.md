@@ -4,7 +4,9 @@
 [image2]: https://user-images.githubusercontent.com/10624937/43851646-d899bf20-9b00-11e8-858c-29b5c2c94ccc.png "Crawler"
 
 
-# Project 2: Continuous Control
+# Continuous Control with Deep Deterministig Policy Gradients project
+
+by Nick Ben ("human transhumanist trans-neanderthal, past-futurist, and "mentor")
 
 ### Summary: 
 In this notebook I implemented a **Deep Deterministic Policy Gradient** ([DDPG](https://arxiv.org/abs/1509.02971)) to solve Unity's *Reacher* environment for the case of a single agent. I explored hyperparameters that made the vanilla case (which is DDPG with Action Space Noise, a stochastic process added to the output of the Actor network), and then I introduceced two variations:
